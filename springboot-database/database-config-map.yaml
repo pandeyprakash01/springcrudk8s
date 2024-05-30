@@ -7,3 +7,4 @@ data:
   mysql-database-name: demoDb     # The name of the database used by the demo app
   mysql-user-username: myUser
   host: mysql
+  DB_URL: jdbc:mysql://mysql/demoDb?useSSL=false
