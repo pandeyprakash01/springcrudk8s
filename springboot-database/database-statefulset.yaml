@@ -4,7 +4,7 @@ metadata:
   name: mysql-stateful
 spec:
   replicas: 1
-  serviceName: mysql-headless-service
+  serviceName: mysql
   selector:
     matchLabels:
       app: db

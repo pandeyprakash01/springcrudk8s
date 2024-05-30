@@ -35,12 +35,12 @@ spec:
 
             - name: DB_USERNAME  # Setting Database username from Secret
               valueFrom :
-                secretKeyRef :
+                configMapKeyRef :
                   name : mysql-config-map
                   key :  mysql-user-username
 
             - name: DB_PASSWORD # Setting Database password from Secret
               valueFrom :
                 secretKeyRef :
-                  name : mysql-secrets
+                  name : mysql-secret
                   key : mysql-user-password
