@@ -8,5 +8,5 @@ spec:
     kind: Deployment
     name: springboot-deployment
   minReplicas: 1
-  maxReplicas: 3
-  targetCPUUtilizationPercentage: 30
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 60

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-k8s-mysql
-          image: panprak/spring-db1:latest
+          image: panprak/spring-db1:abc
           imagePullPolicy: Always
           ports:
             - name: http
